@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
@@ -8,7 +8,7 @@ import Login from "./screens/Login";
 import Register from "./screens/Register";
 import ForgotPassword from "./screens/ForgotPassword";
 
-import { createTheme } from "@mui/material/styles";
+// import { createTheme } from "@mui/material/styles";
 import Review from "./screens/Review";
 import ContactUs from "./screens/ContactUs";
 import About from "./screens/AboutUs";

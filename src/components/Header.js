@@ -38,7 +38,7 @@ const Header = function () {
           <span className="user-nav__notification">13</span>
         </div>
         <div className="user-nav__user" onClick={loginHandler}>
-          <img src={user} alt="User photo" className="user-nav__user-photo" />
+          <img src={user} alt="User" className="user-nav__user-photo" />
           <span className="user-nav__user-name">Login</span>
         </div>
       </nav>

@@ -30,7 +30,7 @@ const UserReview = function () {
       <div className="row">
         <div className="story">
           <figure className="story__shape">
-            <img src={user1} alt="user photo" className="story__img" />
+            <img src={user1} alt="user " className="story__img" />
             <figcaption className="story__caption">Mary Smith</figcaption>
           </figure>
           <div className="story__text">
@@ -53,7 +53,7 @@ const UserReview = function () {
       <div className="row">
         <div className="story">
           <figure className="story__shape">
-            <img src={user2} alt="User photo" className="story__img" />
+            <img src={user2} alt="User" className="story__img" />
             <figcaption className="story__caption">Jack Wilson</figcaption>
           </figure>
           <div className="story__text">

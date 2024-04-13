@@ -12,7 +12,8 @@ export default function ContactUs() {
   useEffect(() => {
     AOS.init();
   }, []);
-  const [state, handleSubmit] = useForm("mzbnkbzn");
+  // const [state, handleSubmit] = useForm("mzbnkbzn");
+  const [state] = useForm("mzbnkbzn");
   if (state.succeeded) {
     return <p>Thanks for joining!</p>;
   }
@@ -26,6 +27,7 @@ export default function ContactUs() {
         allowFullScreen=""
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
+        title="map"
       ></iframe>
 
       <div className="flex-2 margin-top background-box">
@@ -37,6 +39,7 @@ export default function ContactUs() {
             href="https://wa.me/919891127839?text=Hello team Soxence"
             target="_blank"
             className="side-nav__link"
+            rel="noreferrer"
           >
             <img src={whatsapp} alt="Whats app Icon" data-aos="fade-up" />
             <h4 className=" heading-3 margin-md-left" data-aos="fade-down">
@@ -53,7 +56,7 @@ export default function ContactUs() {
             </h4>
           </a>
 
-          <a href="#" className="side-nav__link">
+          <a href="https://mail.google.com/" className="side-nav__link">
             <img src={gmail} alt="gmail Icon" data-aos="fade-up" />
             <h4 className="heading-3 margin-md-left" data-aos="fade-down">
               aarcherindustries@gmail.com

@@ -18,9 +18,9 @@ export default function Footer() {
           <div className="footer__navigation">
             <ul className="footer__list">
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <NavLink to="/" className="footer__link">
                   Company
-                </a>
+                </NavLink>
               </li>
               <li className="footer__item">
                 <NavLink to="/contactUs" className="footer__link">
@@ -29,14 +29,14 @@ export default function Footer() {
               </li>
 
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <NavLink to="/" className="footer__link">
                   Privacy policy
-                </a>
+                </NavLink>
               </li>
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <NavLink to="/" className="footer__link">
                   Terms
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -50,6 +50,7 @@ export default function Footer() {
               href="https://wa.me/919891127839?text=Hello team Soxence"
               target="_blank"
               className="side-nav__link"
+              rel="noreferrer"
             >
               <img src={whatsapp} alt="Whats app Icon" />
             </a>
@@ -60,9 +61,9 @@ export default function Footer() {
               <img src={instagram} alt="Instagram Icon" />
             </a>
 
-            <a href="#" className="side-nav__link">
+            <NavLink to="/" className="side-nav__link">
               <img src={gmail} alt="gmail Icon" />
-            </a>
+            </NavLink>
             <a
               href="https://www.google.com/maps/dir//Q3V5%2B555+Bawana+Industrial+Area+Sector+4+b3,+DSIIDC+Industrial+Area,+Sector+4,+Bawana,+Delhi,+110039/@28.7812501,76.9480016,11.79z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390da9db150e5d83:0x7d371622e1c19ee0!2m2!1d77.0579794!2d28.7928791?entry=ttu"
               className="side-nav__link"

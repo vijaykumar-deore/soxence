@@ -31,12 +31,7 @@ export default function About() {
         </NavLink>
       </div>
       <figure className="" style={{ paddingTop: "2rem" }}>
-        <img
-          src={socksimg}
-          alt="socks photo"
-          className="image"
-          data-aos="fade-up"
-        />
+        <img src={socksimg} alt="socks" className="image" data-aos="fade-up" />
         <figcaption className=""></figcaption>
       </figure>
     </div>

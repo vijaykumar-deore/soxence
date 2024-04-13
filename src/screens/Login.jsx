@@ -1,4 +1,3 @@
-import Header from "../components/Header";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import bg from "../img/SVG/signin.svg";
@@ -56,7 +55,7 @@ export default function Login() {
   const handleSubmit = async (event) => {
     setOpen(true);
     event.preventDefault();
-    const data = new FormData(event.currentTarget);
+    // const data = new FormData(event.currentTarget);
   };
 
   const handleClose = (event, reason) => {
